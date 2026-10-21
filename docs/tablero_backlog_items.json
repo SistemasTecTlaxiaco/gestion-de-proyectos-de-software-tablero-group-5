@@ -1,0 +1,541 @@
+{
+  "proyecto": "Sistema de Apoyo y Proteccion Integral para Vendedoras y Artesanas de Tenates de Palma en la Region Mixteca",
+  "institucion": "Instituto Tecnologico de Tlaxiaco (TecNM)",
+  "materia": "Gestion de Proyectos de Software (SCG-1009)",
+  "unidad": "Unidad 3. Planificacion del Proyecto",
+  "sprint": "Sprint 3 (eduScrum)",
+  "equipo": {
+    "grupo": "Grupo 5",
+    "integrantes": [
+      {
+        "nombre": "Maritza Sanchez Garcia",
+        "rol_eduscrum": "eduScrum Master / Analista",
+        "perfil_tecnico": "Analista de Requisitos y Contexto Cultural",
+        "horas_asignadas": 40.0
+      },
+      {
+        "nombre": "Paola Rosario Ayala",
+        "rol_eduscrum": "Developer (Frontend UI Lead)",
+        "perfil_tecnico": "Desarrolladora Frontend & UI/UX Accesible",
+        "horas_asignadas": 40.0
+      },
+      {
+        "nombre": "Ariadna Belen Bernabe Juarez",
+        "rol_eduscrum": "Developer (Backend Data Lead)",
+        "perfil_tecnico": "Desarrolladora Backend & Persistencia Cifrada",
+        "horas_asignadas": 40.0
+      },
+      {
+        "nombre": "Mayra Gonzalez Lita",
+        "rol_eduscrum": "Developer (QA & Security Lead)",
+        "perfil_tecnico": "Ingeniera de Calidad (QA), Redes y Documentacion",
+        "horas_asignadas": 40.0
+      }
+    ],
+    "horas_totales_equipo": 160.0,
+    "tarifa_hora_mxn": 150.0,
+    "costo_total_mano_obra_mxn": 24000.0,
+    "costo_total_mano_obra_usd": 1263.16
+  },
+  "historias_usuario": [
+    {
+      "id": "HU01",
+      "titulo": "Registro de tiempo y costo de elaboracion (Calculo de Precio Digno Anti-Regateo)",
+      "story_points": 8,
+      "horas_totales": 41.0,
+      "costo_mxn": 6150.0,
+      "criterios_aceptacion": [
+        "CA-1.1",
+        "CA-1.2",
+        "CA-1.3",
+        "CA-1.4"
+      ]
+    },
+    {
+      "id": "HU02",
+      "titulo": "Control de inventario y ventas para el tianguis sabatino de Tlaxiaco (Modo Offline-First)",
+      "story_points": 5,
+      "horas_totales": 34.0,
+      "costo_mxn": 5100.0,
+      "criterios_aceptacion": [
+        "CA-2.1",
+        "CA-2.2",
+        "CA-2.3",
+        "CA-2.4"
+      ]
+    },
+    {
+      "id": "HU03",
+      "titulo": "Catalogo digital de tenates y certificacion de autenticidad cultural",
+      "story_points": 8,
+      "horas_totales": 35.0,
+      "costo_mxn": 5250.0,
+      "criterios_aceptacion": [
+        "CA-3.1",
+        "CA-3.2",
+        "CA-3.3",
+        "CA-3.4"
+      ]
+    },
+    {
+      "id": "HU04",
+      "titulo": "Registro de caracteristicas tecnicas y patrimonio artesanal",
+      "story_points": 5,
+      "horas_totales": 27.0,
+      "costo_mxn": 4050.0,
+      "criterios_aceptacion": [
+        "CA-4.1",
+        "CA-4.2",
+        "CA-4.3",
+        "CA-4.4"
+      ]
+    }
+  ],
+  "tareas": [
+    {
+      "id": "TSK-01",
+      "titulo": "Modelado de formula de Precio Minimo Digno con artesanas",
+      "historia": "HU01",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:analisis",
+      "columna": "Done",
+      "criterios": [
+        "CA-1.1",
+        "CA-1.3"
+      ]
+    },
+    {
+      "id": "TSK-08",
+      "titulo": "Especificacion de flujo de venta rapida en tianguis de Tlaxiaco",
+      "historia": "HU02",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:analisis",
+      "columna": "Done",
+      "criterios": [
+        "CA-2.1",
+        "CA-2.2"
+      ]
+    },
+    {
+      "id": "TSK-15",
+      "titulo": "Glosario artesanal y taxonomia bilingue en Tu'un Savi",
+      "historia": "HU03",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:analisis",
+      "columna": "Done",
+      "criterios": [
+        "CA-3.3",
+        "CA-3.4"
+      ]
+    },
+    {
+      "id": "TSK-22",
+      "titulo": "Levantamiento de catalogo de tecnicas tradicionales de tejido",
+      "historia": "HU04",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:analisis",
+      "columna": "Done",
+      "criterios": [
+        "CA-4.1",
+        "CA-4.2"
+      ]
+    },
+    {
+      "id": "TSK-29",
+      "titulo": "Facilitacion eduScrum, Daily Standups y control del grafico Burndown",
+      "historia": "Transversal",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 13.0,
+      "clasificacion_coq": "tipo:documentacion",
+      "columna": "In Progress",
+      "criterios": [
+        "Transversal"
+      ]
+    },
+    {
+      "id": "TSK-31",
+      "titulo": "Validacion de reglas de negocio y precios minimos con comites de artesanas",
+      "historia": "HU01",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 6.0,
+      "clasificacion_coq": "tipo:desarrollo",
+      "columna": "In Progress",
+      "criterios": [
+        "CA-1.3",
+        "CA-1.4"
+      ]
+    },
+    {
+      "id": "TSK-32",
+      "titulo": "Pruebas de aceptacion de usuario con vendedoras en el tianguis",
+      "historia": "HU02",
+      "responsable": "Maritza Sanchez Garcia",
+      "perfil": "Analista / eduScrum",
+      "horas": 6.0,
+      "clasificacion_coq": "tipo:evaluacion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-2.2",
+        "CA-2.3"
+      ]
+    },
+    {
+      "id": "TSK-02",
+      "titulo": "Diseno UI de fases de tejido e insumos en alto contraste",
+      "historia": "HU01",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:diseno-ui",
+      "columna": "Done",
+      "criterios": [
+        "CA-1.1",
+        "CA-1.4"
+      ]
+    },
+    {
+      "id": "TSK-04",
+      "titulo": "Implementacion de componentes interactivos y calculo reactivo HU01",
+      "historia": "HU01",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 7.0,
+      "clasificacion_coq": "tipo:desarrollo-frontend",
+      "columna": "In Progress",
+      "criterios": [
+        "CA-1.1",
+        "CA-1.4"
+      ]
+    },
+    {
+      "id": "TSK-10",
+      "titulo": "Vistas PWA de punto de venta rapido (cobro en dos toques)",
+      "historia": "HU02",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 7.0,
+      "clasificacion_coq": "tipo:desarrollo-frontend",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-2.2",
+        "CA-2.3"
+      ]
+    },
+    {
+      "id": "TSK-16",
+      "titulo": "Diseno de tarjetas de catalogo y fichas de autenticidad cultural",
+      "historia": "HU03",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:diseno-ui",
+      "columna": "Done",
+      "criterios": [
+        "CA-3.3",
+        "CA-3.4"
+      ]
+    },
+    {
+      "id": "TSK-17",
+      "titulo": "Modulo de compresion local de fotos en Web Workers (< 150 KB WebP)",
+      "historia": "HU03",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 6.0,
+      "clasificacion_coq": "tipo:desarrollo-frontend",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-3.1",
+        "CA-3.4"
+      ]
+    },
+    {
+      "id": "TSK-21",
+      "titulo": "Depuracion de fugas de memoria al procesar rafagas de fotos",
+      "historia": "HU03",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:correccion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-3.1",
+        "CA-3.3"
+      ]
+    },
+    {
+      "id": "TSK-23",
+      "titulo": "Formulario accesible de captura tecnica con selectores visuales",
+      "historia": "HU04",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 5.0,
+      "clasificacion_coq": "tipo:desarrollo-frontend",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-4.1",
+        "CA-4.3"
+      ]
+    },
+    {
+      "id": "TSK-33",
+      "titulo": "Pruebas visuales de contraste bajo luz solar en el tianguis",
+      "historia": "HU04",
+      "responsable": "Paola Rosario Ayala",
+      "perfil": "Frontend / UI",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:evaluacion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-4.3",
+        "CA-4.4"
+      ]
+    },
+    {
+      "id": "TSK-03",
+      "titulo": "Programacion del motor de costeo en TypeScript y persistencia",
+      "historia": "HU01",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 8.0,
+      "clasificacion_coq": "tipo:desarrollo-backend",
+      "columna": "In Progress",
+      "criterios": [
+        "CA-1.2",
+        "CA-1.3"
+      ]
+    },
+    {
+      "id": "TSK-07",
+      "titulo": "Depuracion y correccion de bugs numericos en calculo de materias primas",
+      "historia": "HU01",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:correccion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-1.3",
+        "CA-1.4"
+      ]
+    },
+    {
+      "id": "TSK-09",
+      "titulo": "Estructuracion de esquemas e indices B-Tree en SQLite local cifrado",
+      "historia": "HU02",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 5.0,
+      "clasificacion_coq": "tipo:desarrollo-backend",
+      "columna": "Done",
+      "criterios": [
+        "CA-2.1",
+        "CA-2.4"
+      ]
+    },
+    {
+      "id": "TSK-11",
+      "titulo": "Manejo transaccional ACID en cliente con SQLCipher AES-256",
+      "historia": "HU02",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 6.0,
+      "clasificacion_coq": "tipo:desarrollo-backend",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-2.1",
+        "CA-2.4"
+      ]
+    },
+    {
+      "id": "TSK-14",
+      "titulo": "Optimizacion de consultas SQLite para terminales Android Go",
+      "historia": "HU02",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:correccion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-2.1",
+        "CA-2.4"
+      ]
+    },
+    {
+      "id": "TSK-18",
+      "titulo": "Generacion de huellas criptograficas SHA-256 y renderizado de QR",
+      "historia": "HU03",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 6.0,
+      "clasificacion_coq": "tipo:desarrollo-backend",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-3.2",
+        "CA-3.4"
+      ]
+    },
+    {
+      "id": "TSK-24",
+      "titulo": "Persistencia e indexacion de taxonomia de grecas y tintes naturales",
+      "historia": "HU04",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 5.0,
+      "clasificacion_coq": "tipo:desarrollo-backend",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-4.2",
+        "CA-4.4"
+      ]
+    },
+    {
+      "id": "TSK-28",
+      "titulo": "Correccion de errores en filtros cruzados de tintes y medidas",
+      "historia": "HU04",
+      "responsable": "Ariadna Belen Bernabe Juarez",
+      "perfil": "Backend / Datos",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:correccion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-4.3",
+        "CA-4.4"
+      ]
+    },
+    {
+      "id": "TSK-05",
+      "titulo": "Pruebas de propiedades matematicas de precios minimos (Invariantes)",
+      "historia": "HU01",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 5.0,
+      "clasificacion_coq": "tipo:prevencion-coq",
+      "columna": "Review / QA",
+      "criterios": [
+        "CA-1.3",
+        "CA-1.4"
+      ]
+    },
+    {
+      "id": "TSK-06",
+      "titulo": "Calibracion y verificacion empirica de pesaje de manojos de palma",
+      "historia": "HU01",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:evaluacion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-1.2",
+        "CA-1.3"
+      ]
+    },
+    {
+      "id": "TSK-12",
+      "titulo": "Tipado estatico estricto y validacion de esquemas de inventario",
+      "historia": "HU02",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:prevencion-coq",
+      "columna": "Review / QA",
+      "criterios": [
+        "CA-2.1",
+        "CA-2.4"
+      ]
+    },
+    {
+      "id": "TSK-13",
+      "titulo": "Simulacion de 500 ventas consecutivas desconectadas en tianguis",
+      "historia": "HU02",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:evaluacion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-2.1",
+        "CA-2.2"
+      ]
+    },
+    {
+      "id": "TSK-19",
+      "titulo": "Auditoria de compresion sin degradacion visual en tejidos de palma",
+      "historia": "HU03",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 4.0,
+      "clasificacion_coq": "tipo:prevencion-coq",
+      "columna": "Review / QA",
+      "criterios": [
+        "CA-3.1",
+        "CA-3.2"
+      ]
+    },
+    {
+      "id": "TSK-20",
+      "titulo": "Pruebas de verificacion de hashes y lectura QR bajo luz solar",
+      "historia": "HU03",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:evaluacion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-3.2",
+        "CA-3.4"
+      ]
+    },
+    {
+      "id": "TSK-26",
+      "titulo": "Validacion de integridad referencial de grecas ancestrales",
+      "historia": "HU04",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:prevencion-coq",
+      "columna": "Review / QA",
+      "criterios": [
+        "CA-4.1",
+        "CA-4.2"
+      ]
+    },
+    {
+      "id": "TSK-27",
+      "titulo": "Benchmarks de latencia de busqueda en hardware Android Go real",
+      "historia": "HU04",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 3.0,
+      "clasificacion_coq": "tipo:evaluacion-coq",
+      "columna": "Sprint Backlog (To Do)",
+      "criterios": [
+        "CA-4.4"
+      ]
+    },
+    {
+      "id": "TSK-30",
+      "titulo": "Documentacion tecnica integral, bitacora de calidad y reporte de Sprint 3",
+      "historia": "Transversal",
+      "responsable": "Mayra Gonzalez Lita",
+      "perfil": "QA / Seguridad",
+      "horas": 10.0,
+      "clasificacion_coq": "tipo:documentacion",
+      "columna": "In Progress",
+      "criterios": [
+        "Transversal"
+      ]
+    }
+  ]
+}
