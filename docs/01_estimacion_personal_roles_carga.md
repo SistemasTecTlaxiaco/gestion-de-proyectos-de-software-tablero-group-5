@@ -11,7 +11,6 @@
 > * Jazlynn Barrios Velasco  
 > * Isaías Brayan López Domínguez
 > * Alex Antonio Victoria Vazquez 
-> * Mayra González Lita  
 > **Repositorio Oficial:** [`gestion-de-proyectos-de-software-tablero-group-5`](https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-tablero-group-5.git)  
 > **Fecha:** Octubre 2026  
 
