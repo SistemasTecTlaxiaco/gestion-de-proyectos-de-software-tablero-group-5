@@ -7,10 +7,10 @@
 > **Marco de Trabajo:** eduScrum (Sprint 3)  
 > **Proyecto Oficial:** *Sistema de Apoyo y Protección Integral para Vendedoras y Artesanas de Tenates de Palma en la Región Mixteca ("Cuidar y Dignificar a las Artesanas")*  
 > **Lugar de Aplicación:** Heroica Ciudad de Tlaxiaco, Oaxaca  
-> **Equipo de Desarrollo (Grupo 5):**  
-> * Maritza Sánchez García  
-> * Paola Rosario Ayala  
-> * Ariadna Belén Bernabé Juárez  
+> **Equipo de Desarrollo:**  
+> * Jazlynn Barrios Velasco  
+> * Isaías Brayan López Domínguez
+> * Alex Antonio Victoria Vazquez 
 > * Mayra González Lita  
 > **Repositorio Oficial:** [`gestion-de-proyectos-de-software-tablero-group-5`](https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-tablero-group-5.git)  
 > **Fecha:** Octubre 2026  
