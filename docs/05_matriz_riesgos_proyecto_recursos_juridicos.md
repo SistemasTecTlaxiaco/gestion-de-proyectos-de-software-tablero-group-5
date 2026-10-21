@@ -9,7 +9,7 @@
 > **Iniciativa / Ecosistema:** Open Hub Tec (Instituto Tecnológico de Tlaxiaco)  
 > **Marco de Trabajo:** eduScrum (Sprint 3)  
 > **Proyecto Oficial:** *Infraestructura Descentralizada para la Preservación y Consulta Inmutable de Recursos Jurídicos en la Región Mixteca*  
-> **Organización Beneficiaria:** Núcleos Agrarios, Ejidos y Comités de Bienes Comunales de la Mixteca Alta oaxaqueña (Tlaxiaco, San Esteban Atatlahuca, Santa María Cuquila, San Mateo Peñasco y Chalcatongo de Hidalgo)  
+> **Organización Beneficiaria:** Núcleos Agrarios, Ejidos y Comités de Bienes Comunales de la Mixteca Alta oaxaqueña**  
 > **Repositorio Oficial del Entregable:** [`gestion-de-proyectos-de-software-tablero-group-5`](https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-tablero-group-5.git)  
 > **Repositorios de Referencia Técnica:**  
 > * [`gestion-de-proyectos-de-software-informe-de-estandares-de-ca-group-4`](https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-informe-de-estandares-de-ca-group-4.git)  
