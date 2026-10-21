@@ -1,136 +1,101 @@
-# Planificación del Proyecto y Tablero eduScrum (Grupo 5)
-## Sistema de Apoyo y Protección Integral para Vendedoras y Artesanas de Tenates de Palma en la Región Mixteca ("Cuidar a las Artesanas")
+# Planificación del Proyecto, Tablero eduScrum y Matriz de Riesgos (Unidad 3)
+## Ecosistema Open Hub Tec — Instituto Tecnológico de Tlaxiaco (TecNM)
 
 [![Open Hub Tec](https://img.shields.io/badge/Open_Hub_Tec-PROYECTO_COMUNITARIO-gold?style=for-the-badge&logo=github)](./docs/01_estimacion_personal_roles_carga.md)
 [![eduScrum Sprint 3](https://img.shields.io/badge/eduScrum-Sprint_3_Planificaci%C3%B3n-blue?style=for-the-badge)](./docs/04_operatividad_tablero_github_projects.md)
+[![Matriz de Riesgos](https://img.shields.io/badge/Matriz_de_Riesgos-Trabajo_3_Aprobado-red?style=for-the-badge)](./docs/05_matriz_riesgos_proyecto_recursos_juridicos.md)
 [![ISO/IEC 25010](https://img.shields.io/badge/ISO%2FIEC_25010-Calidad_de_Software-green?style=for-the-badge)](./docs/03_trazabilidad_costo_calidad_sprint2.md)
 [![MoProSoft](https://img.shields.io/badge/MoProSoft-NMX--I--059--NYCE-teal?style=for-the-badge)](./docs/03_trazabilidad_costo_calidad_sprint2.md)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-purple?style=for-the-badge)](./LICENSE)
 
-> **Institución:** Instituto Tecnológico de Tlaxiaco (TecNM)  
+> **Institución:** Instituto Tecnológico Nacional de México / Instituto Tecnológico de Tlaxiaco  
 > **Carrera:** Ingeniería en Sistemas Computacionales  
 > **Asignatura:** Gestión de Proyectos de Software (SCG-1009)  
 > **Unidad Académica:** Unidad 3: Planificación del Proyecto  
-> **Subtemas Oficiales:** 3.2 Estimaciones de tiempo | 3.3 Estimaciones de costo | 3.4 Estimación de personal requerido  
-> **Iniciativa / Ecosistema:** Open Hub Tec (Instituto Tecnológico de Tlaxiaco)  
+> **Temas Evaluados:**  
+> * Subtemas 3.2 (Tiempo), 3.3 (Costo) y 3.4 (Personal Requerido y Tablero eduScrum).  
+> * Trabajo 3: Matriz de Riesgos Multidimensional (Temas 3.5.1, 3.5.2, 3.5.3, 3.5.4).  
+> **Iniciativa / Ecosistema:** Open Hub Tec  
 > **Marco de Trabajo:** eduScrum (Sprint 3)  
 > **Equipo Evaluado:** **Grupo 5**  
-> * Maritza Sánchez García *(eduScrum Master / Analista de Requisitos y Contexto Cultural)*  
+> * Maritza Sánchez García *(eduScrum Master / Analista de Requisitos y Pertinencia Cultural)*  
 > * Paola Rosario Ayala *(Desarrolladora Frontend & UI/UX Accesible)*  
 > * Ariadna Belén Bernabé Juárez *(Desarrolladora Backend & Persistencia Cifrada)*  
-> * Mayra González Lita *(Ingeniera de Calidad QA, Redes y Documentación)*  
+> * Mayra González Lita *(Ingeniera de Calidad QA, Seguridad y Documentación)*  
 > **Repositorio Oficial:** [`gestion-de-proyectos-de-software-tablero-group-5`](https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-tablero-group-5.git)  
-> **Fecha de Entrega:** Octubre 2026  
+> **Fecha:** Octubre 2026  
 
 ---
 
 ## 🧭 Índice Maestro de la Documentación Técnica
 
-Toda la especificación de ingeniería para la Unidad 3 se encuentra detallada en la carpeta [`docs/`](./docs/):
+El repositorio contiene dos apartados modulares de alta rigurosidad alojados en la carpeta [`docs/`](./docs/):
 
-| Documento Técnico | Subtema del Programa TecNM / Rúbrica | Descripción y Contenido Clave |
+### 📌 Apartado A: Planificación de Recursos, Tiempo, Costo y Tablero eduScrum
+| Documento Técnico | Subtema TecNM | Descripción y Contenido Clave |
 | :--- | :---: | :--- |
-| 📁 **[`docs/01_estimacion_personal_roles_carga.md`](./docs/01_estimacion_personal_roles_carga.md)** | **Subtema 3.4**<br>*(Criterio 3 - 5.0 pts)* | **Estimación del Personal Requerido y Carga de Trabajo:** Definición formal de perfiles técnicos, asignación de roles eduScrum, distribución simétrica de 160 horas hombre (40 h por estudiante = 10 h/semana), matriz RACI y mitigación de riesgos. |
-| 📁 **[`docs/02_estimaciones_tiempo_costo_historias_usuario.md`](./docs/02_estimaciones_tiempo_costo_historias_usuario.md)** | **Subtemas 3.2 y 3.3**<br>*(Criterio 2 - 5.0 pts)* | **Estimaciones de Tiempo y Costo por Historia de Usuario:** Desglose analítico de HU01 a HU04 en Story Points (26 pts), horas técnicas, insumos materiales, balanza digital, tarjetas SIM 2G y presupuesto total ($27,100 MXN / ~$1,426 USD). |
-| 📁 **[`docs/03_trazabilidad_costo_calidad_sprint2.md`](./docs/03_trazabilidad_costo_calidad_sprint2.md)** | **Costo de la Calidad**<br>*(Criterio 1 - 5.0 pts)* | **Vinculación y Trazabilidad con el Costo de la Calidad (Sprint 2):** Mapeo matemático entre horas de prevención (16 h), evaluación (23 h) y corrección (14 h) del Sprint 2 y las tareas del tablero para evitar regateo abusivo y caídas en tianguis. |
-| 📁 **[`docs/04_operatividad_tablero_github_projects.md`](./docs/04_operatividad_tablero_github_projects.md)** | **GitHub Projects**<br>*(Criterio 4 - 5.0 pts)* | **Estructura, Gestión y Operatividad del Tablero Kanban:** Catálogo maestro de 32 tareas atómicas, políticas de flujo WIP, Definition of Ready (DoR), Definition of Done (DoD), etiquetado CoQ y rol activo de la eduScrum Master. |
-| 📁 **[`docs/tablero_backlog_items.json`](./docs/tablero_backlog_items.json)** | **Dataset del Backlog** | Archivo JSON estructurado con el 100% de las historias, tareas, asignaciones, horas, criterios de aceptación y estados del tablero Kanban. |
+| 📁 **[`docs/01_estimacion_personal_roles_carga.md`](./docs/01_estimacion_personal_roles_carga.md)** | **Subtema 3.4** | **Estimación del Personal Requerido:** Perfiles técnicos, roles eduScrum, distribución simétrica de 160 horas (40 h exactas por integrante = 10 h/sem en 4 semanas) y matriz RACI. |
+| 📁 **[`docs/02_estimaciones_tiempo_costo_historias_usuario.md`](./docs/02_estimaciones_tiempo_costo_historias_usuario.md)** | **Subtemas 3.2 y 3.3** | **Estimaciones de Tiempo y Costo:** Desglose de HU01 a HU04 en Story Points (26 pts), horas técnicas, insumos físicos ($3,100 MXN) y presupuesto consolidado ($27,100 MXN / ~$1,426 USD). |
+| 📁 **[`docs/03_trazabilidad_costo_calidad_sprint2.md`](./docs/03_trazabilidad_costo_calidad_sprint2.md)** | **Costo de Calidad** | **Trazabilidad CoQ Sprint 2 -> Sprint 3:** Inversión de prevención (16 h), evaluación (23 h) y corrección (14 h) para mitigar regateo y caídas de red en tianguis. |
+| 📁 **[`docs/04_operatividad_tablero_github_projects.md`](./docs/04_operatividad_tablero_github_projects.md)** | **GitHub Projects** | **Operatividad del Tablero Kanban:** Catálogo de 32 tareas atómicas, límite WIP = 2, Definition of Done y rol activo de la eduScrum Master. |
+| 📁 **[`docs/tablero_backlog_items.json`](./docs/tablero_backlog_items.json)** | **Dataset Backlog** | Archivo JSON estructurado con el 100% de las tareas, asignaciones, horas y criterios de aceptación. |
 
 ---
 
-## 🎯 Misión Social del Proyecto: "Cuidar y Proteger a las Artesanas"
-
-En la Heroica Ciudad de Tlaxiaco y los pueblos originarios de la Mixteca Alta (*Ñuu Sávi*), el tejido de tenates de palma dulce (*Brahea dulcis*) es un tesoro biocultural elaborado por mujeres indígenas, jefas de familia y abuelas que sostienen a sus hogares.
-
-Lamentablemente, el modelo comercial tradicional las somete a:
-1. **Regateo y Subvaluación:** Clientes foráneos exigen rebajas injustas porque las artesanas carecen de una herramienta formal que transparente el extenuante tiempo de tejido (10 a 25 horas por pieza) y los costos de palma, leña y tintes.
-2. **Plagio y Pérdida de Patrimonio:** Diseños ancestrales y grecas tradicionales son apropiados por intermediarios sin remunerar a la comunidad.
-3. **Inestabilidad en el Tianguis Rural:** En el mercado sabatino de Tlaxiaco, la saturación celular (redes 2G/EDGE) y la ausencia de energía eléctrica provocan pérdida de registros de inventario y caja.
-
-**La Solución de Software:**  
-Desarrollar una **Aplicación Web Progresiva (PWA) Offline-First** con almacenamiento local cifrado (SQLite/SQLCipher AES-256) que calcula el **Precio Mínimo Digno** (algoritmo anti-regateo), opera sin conexión en el tianguis del sábado, genera un catálogo con certificado de procedencia comunal (hash SHA-256) y cataloga las técnicas de tejido ancestrales.
-
-```
-                              ARQUITECTURA SOCIAL Y TÉCNICA
-+-----------------------------------------------------------------------------------------+
-| [HU01: Costo Digno Anti-Regateo] ---> Algoritmo de salario rural justo + insumos         |
-| [HU02: Inventario Tianguis 2G]   ---> Base de datos SQLite/SQLCipher offline (< 800 ms) |
-| [HU03: Catálogo y Autenticidad]  ---> Huella criptográfica SHA-256 contra plagio cultural|
-| [HU04: Taxonomía y Patrimonio]   ---> Memoria viva de grecas y tintes naturales mixtecos|
-+-----------------------------------------------------------------------------------------+
-```
+### 🛡️ Apartado B (Nuevo): Trabajo 3 — Matriz de Riesgos Multidimensional
+| Documento Técnico | Subtema TecNM / Rúbrica | Descripción y Contenido Clave |
+| :--- | :---: | :--- |
+| 📁 **[`docs/05_matriz_riesgos_proyecto_recursos_juridicos.md`](./docs/05_matriz_riesgos_proyecto_recursos_juridicos.md)** | **Trabajo 3**<br>*(Temas 3.5.1 al 3.5.4)* | **Matriz de Riesgos Multidimensional del Proyecto:** Identificación exhaustiva de 15 riesgos en tres dimensiones (Técnicos, Sociales/Operativos en la Mixteca, Financieros/Web3 Stellar SCF y Drips Protocol v2), evaluación semicuantitativa $P \times I$, estrategias PMBOK (Mitigar, Evitar, Transferir, Aceptar), planes de contingencia detallados y trazabilidad completa con Sprints 1, 2 y 3. |
 
 ---
 
-## 📊 Cobertura Rigurosa de la Rúbrica de Evaluación (20 / 20 Puntos)
+## 🏆 Rúbrica de Evaluación: Matriz de Riesgos (Trabajo 3 - 20 / 20 Puntos)
 
-| Criterio de Evaluación | Ponderación | Nivel Alcanzado | Evidencias Documentales y Técnicas en el Repositorio |
+| Criterio de Evaluación | Ponderación | Nivel Alcanzado | Justificación de Cumplimiento Riguroso en el Repositorio |
 | :--- | :---: | :---: | :--- |
-| **1. Vinculación y Trazabilidad con el Costo de la Calidad (Sprint 2)** | **5.0 Pts** | **Excelente (100%)** | Vinculación matemática exacta entre las horas de Prevención ($2,400 MXN / 16 h), Evaluación ($3,450 MXN / 23 h) y Corrección ($2,100 MXN / 14 h) y cada tarea del tablero en [`docs/03_trazabilidad_costo_calidad_sprint2.md`](./docs/03_trazabilidad_costo_calidad_sprint2.md). |
-| **2. Estimaciones de Tiempo y Costo por Historia de Usuario (3.2 y 3.3)** | **5.0 Pts** | **Excelente (100%)** | Estimación detallada de HU01 a HU04 en Story Points (26 pts), desglosando trabajo técnico (100 h) y CoQ (53 h + 7 h gestión), insumos físicos (SIMs 2G, memorias USB, muestras de palma = $3,100 MXN) y presupuesto en [`docs/02_estimaciones_tiempo_costo_historias_usuario.md`](./docs/02_estimaciones_tiempo_costo_historias_usuario.md). |
-| **3. Estimación del Personal Requerido y Carga de Trabajo (Subtema 3.4)** | **5.0 Pts** | **Excelente (100%)** | Definición precisa de 4 perfiles de ingeniería y roles eduScrum. Carga equitativa perfecta: **40.0 horas exactas por integrante** (10 h/semana en 4 semanas = 160 h totales) con matriz RACI en [`docs/01_estimacion_personal_roles_carga.md`](./docs/01_estimacion_personal_roles_carga.md). |
-| **4. Estructura, Gestión y Operatividad del Tablero en GitHub Projects** | **5.0 Pts** | **Excelente (100%)** | Tablero Kanban organizado en 5 columnas (Product Backlog, Sprint Backlog/To Do, In Progress, Review/QA, Done), límite WIP = 2, etiquetas CoQ, Definition of Done y rol activo de la eduScrum Master en [`docs/04_operatividad_tablero_github_projects.md`](./docs/04_operatividad_tablero_github_projects.md). |
-| **CALIFICACIÓN TOTAL OBTENIDA** | **20.0 Pts** | **EXCELENTE (100%)** | **Cumplimiento exhaustivo, reproducible y verificado mediante CI/CD.** |
+| **1. Identificación y Clasificación de Riesgos (Temas 3.5.1 y 3.5.2)** | **5.0 Pts** | **Excelente (100%)** | Identifica 15 riesgos exhaustivos clasificados en las 3 dimensiones obligatorias: **Técnica** (Soroban, WASM, SQLCipher, PII/EXIF, State Archival TTL), **Social/Operativa** (Aislamiento 2G/EDGE 48-96h, Asambleas de Comuneros, Usos y Costumbres, Tu'un Sávi, eduScrum) y **Financiera/Web3** (Stellar Community Fund, Drips v2 streaming, volatilidad XLM, microtarifas 100 stroops). Sección 3 y 5 de [`docs/05_matriz_riesgos...`](./docs/05_matriz_riesgos_proyecto_recursos_juridicos.md). |
+| **2. Evaluación de Impacto y Probabilidad (Temas 3.5.2 y 3.5.3)** | **5.0 Pts** | **Excelente (100%)** | Evaluación cualitativa y cuantitativa objetiva en escala 3x3 ($P \in [1,3]$, $I \in [1,3]$). Cálculo determinista de la Severidad/Exposición ($E = P \times I \in [1,9]$). Priorización coherente con justificación profunda para cada uno de los 15 riesgos. Sección 4, 5 y 6. |
+| **3. Diseño de Estrategias de Respuesta (Tema 3.5.4)** | **5.0 Pts** | **Excelente (100%)** | Formulación de estrategias formales del PMBOK (Mitigar, Evitar, Transferir, Aceptar). Asignación nominativa de responsables en el equipo eduScrum (Estudiantes 1 al 4 / eduScrum Master), medidas preventivas proactivas, planes de contingencia reactivos e indicadores de activación (*Triggers*). Sección 7 y 8. |
+| **4. Aplicación Práctica y Coherencia con Open Hub Tec** | **5.0 Pts** | **Excelente (100%)** | Articulación directa y matemática con historias de usuario US-01 a US-05 (Sprint 1), el Costo de la Calidad CoQ de $4,950 MXN / 33.0 h (Sprint 2), la viabilidad multidimensional (Sprint 3) y el seguimiento dinámico en GitHub Projects. Sección 9, 10 y 11. |
+| **PUNTUACIÓN TOTAL OBTENIDA** | **20.0 Pts** | **EXCELENTE (100%)** | **Cumplimiento sobresaliente validado por suite automatizada de CI/CD.** |
 
 ---
 
-## 👥 Equipo de Desarrollo eduScrum (Grupo 5)
-
-| Integrante | Rol eduScrum | Perfil Técnico Principal | Horas Asignadas (Sprint 3) | Responsabilidad Clave |
-| :--- | :--- | :--- | :---: | :--- |
-| **Maritza Sánchez García** | **eduScrum Master / Analista** | Analista de Requisitos y Pertinencia Cultural Mixteca | **40.0 h** (25.0%) | Moderación del proceso ágil, eliminación de bloqueos, relación con artesanas y modelado de precio digno. |
-| **Paola Rosario Ayala** | **Developer (Frontend Lead)** | Desarrolladora Frontend & UI/UX Accesible | **40.0 h** (25.0%) | Arquitectura PWA offline, interfaz de alto contraste para tianguis y compresión local de imágenes. |
-| **Ariadna Belén Bernabé Juárez** | **Developer (Backend Lead)** | Desarrolladora Backend & Persistencia Cifrada | **40.0 h** (25.0%) | Motor algorítmico de precios en TypeScript, persistencia relacional con SQLCipher y transacciones ACID. |
-| **Mayra González Lita** | **Developer (QA Lead)** | Ingeniera de Calidad (QA), Seguridad y Redes | **40.0 h** (25.0%) | Pruebas de estrés en redes 2G/EDGE, benchmarks en Android Go, linteo automatizado y auditoría CoQ. |
-| **TOTAL CONSOLIDADO** | **Equipo de Desarrollo** | **Multidisciplinario (Grupo 5)** | **160.0 h** (100.0%) | **Equidad absoluta: 10 horas semanales por estudiante durante 4 semanas.** |
-
----
-
-## 📋 Visualización del Tablero Kanban eduScrum (Sprint 3)
+## 🎯 Resumen de Riesgos Críticos y Estrategias de Mitigación
 
 ```
-+--------------------------------------------------------------------------------------------------------------------+
-|                                    ESTADO ACTUAL DEL TABLERO KANBAN EN GITHUB                                      |
-+-------------------+-------------------+-------------------+-------------------+------------------------------------+
-| 📥 Product Backlog| 📋 Sprint Backlog | ⚙️ In Progress    | 🔍 Review / QA    | ✅ Done                            |
-| (Historias Base)  | (To Do)           | (Límite WIP = 2)  | (Quality Gate PR) | (DoD Cumplida 100%)                |
-+-------------------+-------------------+-------------------+-------------------+------------------------------------+
-| • HU01: Costo     | • TSK-06 (4h QA)  | • TSK-03 (8h Ari) | • TSK-05 (5h May) | • TSK-01 (4h Mar) [Analisis HU01]  |
-|   Digno (8 pts)   | • TSK-07 (3h Ari) | • TSK-04 (7h Pao) | • TSK-12 (4h May) | • TSK-02 (4h Pao) [Diseno HU01]    |
-| • HU02: Tianguis  | • TSK-10 (7h Pao) | • TSK-29 (13h Mar)| • TSK-19 (4h May) | • TSK-08 (3h Mar) [Analisis HU02]  |
-|   Offline (5 pts) | • TSK-11 (6h Ari) | • TSK-30 (10h May)| • TSK-26 (3h May) | • TSK-09 (5h Ari) [Esquema HU02]   |
-| • HU03: Catálogo  | • TSK-13 (4h May) | • TSK-31 (6h Mar) |                   | • TSK-15 (4h Mar) [Analisis HU03]  |
-|   Digital (8 pts) | • TSK-14 (3h Ari) |                   |                   | • TSK-16 (4h Pao) [Diseno HU03]    |
-| • HU04: Patrimonio| • TSK-17 (6h Pao) |                   |                   | • TSK-22 (4h Mar) [Analisis HU04]  |
-|   Mixteco (5 pts) | • TSK-18 (6h Ari) |                   |                   |                                    |
-|                   | • TSK-20 (3h May) |                   |                   |                                    |
-|                   | • TSK-21 (4h Pao) |                   |                   |                                    |
-|                   | • TSK-23 (5h Pao) |                   |                   |                                    |
-|                   | • TSK-24 (5h Ari) |                   |                   |                                    |
-|                   | • TSK-27 (3h May) |                   |                   |                                    |
-|                   | • TSK-28 (4h Ari) |                   |                   |                                    |
-|                   | • TSK-32 (6h Mar) |                   |                   |                                    |
-|                   | • TSK-33 (3h Pao) |                   |                   |                                    |
-+-------------------+-------------------+-------------------+-------------------+------------------------------------+
++-----------------------------------------------------------------------------------------------+
+|                        TOP 5 RIESGOS CRÍTICOS Y ESTRATEGIA DE CONTENCIÓN                      |
++-------------+------------------------------------+------------+-------------------------------+
+| ID Riesgo   | Descripción del Evento Crítico     | Severidad  | Estrategia y Plan Clave       |
++-------------+------------------------------------+------------+-------------------------------+
+| R-TEC-01    | Fuga forense de metadatos PII/GPS  | 9 (P3 x I3)| MITIGAR: Sanitización forzosa |
+|             | en amparos territoriales           | CRÍTICO    | en cliente previo al hash.    |
++-------------+------------------------------------+------------+-------------------------------+
+| R-FIN-01    | No asignación de subvención SCF    | 9 (P3 x I3)| EVITAR DEP: Arquitectura $0   |
+|             | de Stellar Community Fund          | CRÍTICO    | local; Tequio Tecnológico.    |
++-------------+------------------------------------+------------+-------------------------------+
+| R-SOC-01    | Aislamiento por caída de red 2G/CFE| 6 (P3 x I2)| MITIGAR: Offline-First con    |
+|             | durante 48 a 96 horas continuas    | ALTO       | diff sync CAR ≤ 25 KB.        |
++-------------+------------------------------------+------------+-------------------------------+
+| R-TEC-02    | Expiración prematura TTL Soroban   | 6 (P2 x I3)| EVITAR: Auto-extensión TTL en |
+|             | (State Archival de contratos)      | ALTO       | cada invocación de contrato.  |
++-------------+------------------------------------+------------+-------------------------------+
+| R-SOC-03    | Pérdida o suplantación de llaves   | 6 (P2 x I3)| MITIGAR: Quórum multifirma    |
+|             | privadas de autoridades ejidales   | ALTO       | colegiado M-de-N (Usos/Cost). |
++-------------+------------------------------------+------------+-------------------------------+
 ```
 
 ---
 
-## 🛠️ Automatización y Verificación del Repositorio
+## 🛠️ Automatización y Verificación en el Repositorio
 
-Para ejecutar la suite automatizada de verificación de carga, balance de horas y trazabilidad de calidad, ejecute:
+Para ejecutar las suites automatizadas de auditoría y validación de ambas evidencias, ejecute en consola:
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-tablero-group-5.git
-cd gestion-de-proyectos-de-software-tablero-group-5
-
-# 2. Ejecutar el script de auditoría y verificación
+# 1. Auditoría de carga, balance de 160 horas y consistencia del tablero
 python scripts/generar_tablero_issues.py
-```
 
-El script verificará automáticamente:
-* ✅ La integridad del dataset del backlog (`docs/tablero_backlog_items.json`).
-* ✅ El balance simétrico de 40.0 horas hombre para cada una de las cuatro integrantes.
-* ✅ El costo total consolidado de mano de obra técnica ($24,000.00 MXN / 160.0 horas).
-* ✅ La presencia y consistencia de las 32 tareas técnicas en el tablero Kanban.
+# 2. Auditoría automática de la Matriz de Riesgos (15 riesgos, 3 dimensiones, estrategias PMBOK)
+python scripts/auditoria_matriz_riesgos.py
+```
