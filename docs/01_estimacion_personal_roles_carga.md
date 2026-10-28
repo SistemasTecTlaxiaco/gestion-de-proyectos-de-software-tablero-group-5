@@ -9,8 +9,9 @@
 > **Lugar de Aplicación:** Heroica Ciudad de Tlaxiaco, Oaxaca  
 > **Equipo de Desarrollo:**  
 > * Jazlynn Barrios Velasco  
-> * Isaías Brayan López Domínguez
-> * Alex Antonio Victoria Vazquez 
+> * Isaías Brayan López Domínguez  
+> * Alex Antonio Victoria Vazquez  
+> * Rafael Ayala Coronel  
 > **Repositorio Oficial:** [`gestion-de-proyectos-de-software-tablero-group-5`](https://github.com/SistemasTecTlaxiaco/gestion-de-proyectos-de-software-tablero-group-5.git)  
 > **Fecha:** Octubre 2026  
 
@@ -50,7 +51,7 @@ Por ello, el proyecto trasciende el concepto de un simple punto de venta: se con
 
 Estimar con rigurosidad matemática y metodológica el personal técnico requerido para diseñar, implementar, probar y documentar el **Sistema de Apoyo y Protección Integral para Vendedoras y Artesanas de Tenates de Palma**, especificando:
 * Los perfiles profesionales de ingeniería y los roles ágiles bajo **eduScrum**.
-* La asignación equitativa y balanceada de la carga de trabajo entre las **cuatro integrantes del Grupo 5** (Maritza Sánchez García, Paola Rosario Ayala, Ariadna Belén Bernabé Juárez y Mayra González Lita).
+* La asignación equitativa y balanceada de la carga de trabajo entre los **cuatro integrantes del Grupo 5** (Jazlynn Barrios Velasco, Isaías Brayan López Domínguez, Alex Antonio Victoria Vazquez y Rafael Ayala Coronel).
 * La distribución temporal de **160 horas hombre** en un ciclo operativo de 4 semanas de Sprint académico (10 horas semanales por integrante), garantizando compatibilidad con la carga curricular del semestre agosto-diciembre 2026.
 * La cobertura integral de las **cuatro Historias de Usuario principales (HU01 a HU04)**, garantizando que el 100% de los criterios de aceptación y las horas de aseguramiento de calidad (Prevención y Corrección) queden debidamente respaldadas por responsables directos.
 
@@ -96,12 +97,12 @@ Para maximizar el aprovechamiento de talentos y garantizar una división cientí
 
 | Perfil Técnico Requerido | Rol en eduScrum | Integrante Asignada | Justificación Técnica y Competencias Clave |
 | :--- | :--- | :--- | :--- |
-| **Coordinadora de Proyecto y Analista de Requisitos** | **eduScrum Master / Analista** | **Maritza Sánchez García** | Lidera la facilitación del proceso ágil, eliminación de impedimentos, moderación de ceremonias (Sprint Planning, Daily Standup, Review, Retrospective) y levantamiento de requisitos con enfoque cultural, traduciendo las necesidades de las artesanas mixtecas en especificaciones técnicas formales y criterios de aceptación verificables. |
-| **Desarrolladora Frontend & Experiencia de Usuario (UI/UX)** | **Team Member (Developer)** | **Paola Rosario Ayala** | Especialista en diseño de interfaces centradas en personas usuarias con baja alfabetización digital; responsable del desarrollo de la PWA ultraligera, hojas de estilo accesibles de alto contraste para visibilidad bajo la luz solar en el tianguis, e internacionalización preliminar de iconografía y términos en *Tu'un Sávi*. |
-| **Desarrolladora Backend & Persistencia Local Cifrada** | **Team Member (Developer)** | **Ariadna Belén Bernabé Juárez** | Responsable de la lógica de negocio, codificación del algoritmo de costeo digno (HU01), indexación en base de datos local SQLite con cifrado en reposo SQLCipher (AES-256), gestión de concurrencia en almacenamiento de terminales modestas y generación determinista de identificadores de autenticidad. |
-| **Ingeniera de Calidad de Software (QA) y Redes** | **Team Member (Developer / QA Lead)** | **Mayra González Lita** | Custodia de la calidad técnica; responsable del diseño y ejecución del plan de pruebas unitarias e integrales, simulación de estrés en red celular 2G/EDGE rural, auditoría de linteo automatizado (`eslint`, `cargo clippy`), validación de criterios de aceptación y elaboración de la memoria técnica y evidencias. |
+| **Coordinadora de Proyecto y Analista de Requisitos** | **eduScrum Master / Analista** | **Jazlynn Barrios Velasco** | Lidera la facilitación del proceso ágil, eliminación de impedimentos, moderación de ceremonias (Sprint Planning, Daily Standup, Review, Retrospective) y levantamiento de requisitos con enfoque cultural, traduciendo las necesidades de las artesanas mixtecas en especificaciones técnicas formales y criterios de aceptación verificables. |
+| **Desarrollador Frontend & Experiencia de Usuario (UI/UX)** | **Team Member (Developer)** | **Isaías Brayan López Domínguez** | Especialista en diseño de interfaces centradas en personas usuarias con baja alfabetización digital; responsable del desarrollo de la PWA ultraligera, hojas de estilo accesibles de alto contraste para visibilidad bajo la luz solar en el tianguis, e internacionalización preliminar de iconografía y términos en *Tu'un Sávi*. |
+| **Desarrollador Backend & Persistencia Local Cifrada** | **Team Member (Developer)** | **Alex Antonio Victoria Vazquez** | Responsable de la lógica de negocio, codificación del algoritmo de costeo digno (HU01), indexación en base de datos local SQLite con cifrado en reposo SQLCipher (AES-256), gestión de concurrencia en almacenamiento de terminales modestas y generación determinista de identificadores de autenticidad. |
+| **Ingeniero de Calidad de Software (QA) y Redes** | **Team Member (Developer / QA Lead)** | **Rafael Ayala Coronel** | Custodio de la calidad técnica; responsable del diseño y ejecución del plan de pruebas unitarias e integrales, simulación de estrés en red celular 2G/EDGE rural, auditoría de linteo automatizado (`eslint`, `cargo clippy`), validación de criterios de aceptación y elaboración de la memoria técnica y evidencias. |
 
-> **Nota de Gobernanza eduScrum:** Todas las integrantes actúan colegiadamente como desarrolladoras (*Developers*), compartiendo la responsabilidad compartida (*Collective Ownership*) sobre el repositorio y la entrega de valor, bajo la premisa de *Tequio Tecnológico*.
+> **Nota de Gobernanza eduScrum:** Todos los integrantes actúan colegiadamente como desarrolladores (*Developers*), compartiendo la responsabilidad compartida (*Collective Ownership*) sobre el repositorio y la entrega de valor, bajo la premisa de *Tequio Tecnológico*.
 
 ---
 
@@ -140,7 +141,7 @@ Para evitar el síndrome de agotamiento estudiantil (*burnout*) y garantizar el 
 
 ### A. Matriz de Distribución por Perfil y por Integrante (en Horas Hombre)
 
-| Actividad de Ingeniería | Maritza Sánchez (eduScrum / Analista) | Paola Rosario (Frontend / UI) | Ariadna Belén (Backend / Datos) | Mayra González (QA / Calidad) | Total Horas por Actividad |
+| Actividad de Ingeniería | Jazlynn Barrios (eduScrum / Analista) | Isaías López (Frontend / UI) | Alex Victoria (Backend / Datos) | Rafael Ayala (QA / Calidad) | Total Horas por Actividad |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **ACT-01. Análisis de Requisitos** | **12 h** | 3 h | 3 h | 2 h | **20 h** |
 | **ACT-02. Diseño de Arquitectura / UI** | 4 h | **10 h** | 4 h | 2 h | **20 h** |
@@ -153,10 +154,10 @@ Para evitar el síndrome de agotamiento estudiantil (*burnout*) y garantizar el 
 
 ### B. Justificación del Balance de Carga:
 
-1. **Maritza Sánchez García (40 h):** Concentra el esfuerzo directivo y analítico (12 h en requisitos, 13 h en facilitación eduScrum y documentación general), aportando además 6 h de desarrollo en validación de reglas de negocio y 5 h en pruebas y correcciones de usuario final.
-2. **Paola Rosario Ayala (40 h):** Concentra su labor en la experiencia de usuario y presentación gráfica (10 h en prototipado de UI accesible y 20 h en programación de vistas y componentes PWA), complementadas con 7 h de pruebas/correcciones visuales y 3 h de afinación de requisitos con artesanas.
-3. **Ariadna Belén Bernabé Juárez (40 h):** Representa el motor de backend y lógica pesada (28 h en desarrollo del algoritmo de costeo, modelos relacionales y persistencia SQLCipher), respaldada por 4 h de diseño técnico, 8 h en pruebas unitarias y corrección de bugs en datos.
-4. **Mayra González Lita (40 h):** Asume el liderazgo de la calidad del producto (20 h combinadas de ejecución de pruebas y corrección de incidencias de CoQ), 10 h en elaboración de reportes de calidad y bitácoras, 6 h en apoyo a scripts de prueba automatizados y 4 h en análisis y diseño preventivo.
+1. **Jazlynn Barrios Velasco (40 h):** Concentra el esfuerzo directivo y analítico (12 h en requisitos, 13 h en facilitación eduScrum y documentación general), aportando además 6 h de desarrollo en validación de reglas de negocio y 5 h en pruebas y correcciones de usuario final.
+2. **Isaías Brayan López Domínguez (40 h):** Concentra su labor en la experiencia de usuario y presentación gráfica (10 h en prototipado de UI accesible y 20 h en programación de vistas y componentes PWA), complementadas con 7 h de pruebas/correcciones visuales y 3 h de afinación de requisitos con artesanas.
+3. **Alex Antonio Victoria Vazquez (40 h):** Representa el motor de backend y lógica pesada (28 h en desarrollo del algoritmo de costeo, modelos relacionales y persistencia SQLCipher), respaldada por 4 h de diseño técnico, 8 h en pruebas unitarias y corrección de bugs en datos.
+4. **Rafael Ayala Coronel (40 h):** Asume el liderazgo de la calidad del producto (20 h combinadas de ejecución de pruebas y corrección de incidencias de CoQ), 10 h en elaboración de reportes de calidad y bitácoras, 6 h en apoyo a scripts de prueba automatizados y 4 h en análisis y diseño preventivo.
 
 ---
 
@@ -168,7 +169,7 @@ Para vincular operativamente la estimación del personal con las tareas concreta
 * **C (Consulted):** Persona con la que se valida o consulta información técnica.
 * **I (Informed):** Persona que se mantiene informada del progreso.
 
-| Historia de Usuario / Entregable | Maritza Sánchez (eduScrum / Analista) | Paola Rosario (Frontend / UI) | Ariadna Belén (Backend / Datos) | Mayra González (QA / Calidad) |
+| Historia de Usuario / Entregable | Jazlynn Barrios (eduScrum / Analista) | Isaías López (Frontend / UI) | Alex Victoria (Backend / Datos) | Rafael Ayala (QA / Calidad) |
 | :--- | :---: | :---: | :---: | :---: |
 | **HU01: Registro de tiempo y costo (Cálculo Digno Anti-Regateo)** | **A** / C | C | **R** | C / R (Tests) |
 | **HU02: Control de productos para el tianguis (Offline-First)** | C | **R** | **R** | **A** / R (Estrés) |
@@ -199,14 +200,14 @@ La adopción de **eduScrum** (metodología ágil orientada al aprendizaje format
 
 1. **Reunión de Sincronización Diaria (Daily Standup):** Se realiza de manera ágil (máximo 15 minutos) 3 veces por semana de forma híbrida (laboratorio del TecNM y canal virtual de Discord), respondiendo: ¿Qué avancé para cuidar a las artesanas?, ¿Qué tareas del tablero tomaré?, ¿Existe algún bloqueo técnico en 2G o base de datos?
 2. **Políticas de Transición en el Tablero de GitHub Projects:**
-   * Ninguna tarea puede pasar a *In Progress* sin tener asignada una integrante, estimación en horas y etiqueta de Historia de Usuario.
+   * Ninguna tarea puede pasar a *In Progress* sin tener asignado un integrante, estimación en horas y etiqueta de Historia de Usuario.
    * Límite de Trabajo en Proceso (*Work In Progress - WIP*): Máximo 2 tareas simultáneas por integrante para evitar la dispersión.
    * Criterio de Entrada a *Review*: Código subido a GitHub con *Pull Request*, pasando linteo en CI (`eslint` sin advertencias) y pruebas unitarias locales.
 3. **Criterio de Terminado (*Definition of Done - DoD*):**
    * El código satisface el 100% de los Criterios de Aceptación especificados en el issue.
    * Se cuenta con evidencia de prueba ejecutada (captura de pantalla o log de consola).
    * La documentación técnica de la tarea está actualizada.
-   * El *Pull Request* cuenta con la aprobación cruzada de al menos otra compañera del equipo y la validación de la QA Lead.
+   * El *Pull Request* cuenta con la aprobación cruzada de al menos otro compañero/a del equipo y la validación del QA Lead.
 
 ---
 
@@ -219,7 +220,7 @@ Para asegurar que la estimación sea realista y no caiga en el optimismo injusti
 | **Cortes imprevistos de energía o Internet en Tlaxiaco** | Alta | Medio | Configuración de entornos de desarrollo 100% locales (SQLite, Node local); repositorios replicados en unidades USB cifradas; trabajo offline nativo. |
 | **Saturación académica por periodo de exámenes parciales** | Alta | Alto | Buffer de 2 horas de holgura por integrante en semanas críticas; asignación de tareas de documentación y análisis en días de evaluación teórica. |
 | **Resistencia o dificultades de comprensión por brecha digital** | Media | Alto | Pruebas tempranas de usabilidad con artesanas desde la Semana 2 (Sprint 3); simplificación extrema de la UI con iconografía intuitiva de la palma y el tenate. |
-| **Complejidad inesperada en consultas SQLCipher en terminales lentas** | Media | Medio | Apoyo técnico cruzado entre Ariadna (Backend) y Mayra (QA); pruebas de rendimiento sintéticas previas con colecciones de prueba antes de la integración final. |
+| **Complejidad inesperada en consultas SQLCipher en terminales lentas** | Media | Medio | Apoyo técnico cruzado entre Alex (Backend) y Rafael (QA); pruebas de rendimiento sintéticas previas con colecciones de prueba antes de la integración final. |
 
 ---
 
